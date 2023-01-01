@@ -1,0 +1,4 @@
+Enter the following command in the terminal to compile all source code and header files(make sure your directory is in /bin):
+
+gcc ../src/chess_board.c ../src/coord.c ../src/file_processing.c ../src/main.c ../src/stack.c ../inc/chess_board.h ../inc/coord.h ../inc/file_processing.h ../inc/stack.h ../inc/step.h
+
