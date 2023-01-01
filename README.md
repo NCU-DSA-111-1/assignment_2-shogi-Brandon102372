@@ -1,9 +1,4 @@
 # Shogi
-# Compile
-Use the following command to compile all the files
-```bash
-gcc chess_board.h chess_board.c coord.c coord.h file_processing.h file_processing.c main.c stack.c stack.h step.h
-```
 # Usage
 ## Start new game
 1. Pass the following argument to start a new game:
