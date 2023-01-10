@@ -51,6 +51,7 @@ int main(int argc, char *argv[]) {
 	
 	switch(current){
 		case LOAD: //load mode
+		{
 			stack *pre_record=NULL;
 			read_file(&record,file_name);
 			while(true){
@@ -81,6 +82,7 @@ int main(int argc, char *argv[]) {
 				}
 			}
 			break;
+		}
 		case NEW: //play mode
 			while(true){
 				printf("player %d : ",player);
